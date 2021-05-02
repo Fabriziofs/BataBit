@@ -1,18 +1,23 @@
 :root {
   /* colors */
-  --bitcoin-orange: #F7931A;
-  --soft-orange: #FFE9D5;
-  --secondary-blue: #1A9AF7;
-  --soft-blue: #E7F5FF;
-  --warm-black: #201E1C;
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
   --warm-black-plus: #282623;
-  --grey: #BABABA;
-  --off-white: #FAF8F7;
-  --just-white: #FFFFFF;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
