@@ -9,6 +9,7 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #ffffff;
+  --linear-bg: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
 * {
@@ -31,6 +32,7 @@ html {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  background: var(--linear-bg);
 }
 
 .header img {
